@@ -1,5 +1,1 @@
-function rectangle(x) {
-    x = x/2;
-    console.log(x);
-}
-rectangle(4);
+const { app, Browser } = require('electron');
