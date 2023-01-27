@@ -1,1 +1,0 @@
-const { app, Browser } = require('electron');
