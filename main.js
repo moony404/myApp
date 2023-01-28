@@ -4,8 +4,8 @@ function createMainWindow() {
     const mainWindow = new BrowserWindow({
         // placeholder
         title: 'myApp',
-        width: 500,
-        height: 600
+        width: 600,
+        height: 400
     });
     mainWindow.loadFile(path.join(__dirname, './renderer/index.html'));
 }
