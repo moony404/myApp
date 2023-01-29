@@ -9,3 +9,7 @@ body {
     width: 6em;
     height: auto;
 }
+
+a:link {
+    text-decoration: none;
+}
