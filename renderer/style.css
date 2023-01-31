@@ -1,19 +1,30 @@
 body {
-    background-color: #292a2d;
-    font-size: 24px;
-    font-family: 'Reem Kufi Ink', sans-serif;
-    color: wheat;
+  background-color: #292a2d;
+  font-size: 24px;
+  font-family: 'Reem Kufi Ink', sans-serif;
+  color: wheat;
 }
 
 .menu {
-    width: 8.5em;
-    height: auto;
-    border-right: 8px solid #000000;
-    border-bottom: 8px solid #000000;
+  width: 8.5em;
+  height: auto;
+  border-right: 8px solid #000000;
+  border-bottom: 8px solid #000000;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.circle1 {
+  background-color: #37FF8B;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.circle1:hover {
+  background-color: #20b65e;
 }
 
 /* === removing default button style ===*/
