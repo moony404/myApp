@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 body {
   background: linear-gradient(46deg, #383838,#202020);
   font-size: 24px;
@@ -6,8 +7,7 @@ body {
   color: wheat;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-
+/*  */
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -91,7 +91,7 @@ p {
   cursor: default;
 }
 
-#bottone1 {
+#button1 {
  padding-left: 33px;
  padding-right: 33px;
  padding-bottom: 16px;
