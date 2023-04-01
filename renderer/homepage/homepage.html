@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
     <title>myApp/homepage</title>
 </head>
 <body>
-    <div class="topBarre">
-        <p></p>
+    <p>Welcome to myApp !</p>
+    <button id="bottone1"><strong>Let's go to myApp</strong></button>
+    <a href="https://www.google.com">google</a>
+    <button class="buttonTest" onclick="gotoLink(this)" value="https://www.google.com">Let's go to myApp</button>
+    <script>
+        function gotoLink(link) {
+            console.log(link.value);
+            window.open();
+        }
+    </script>
+    <div class="text">
+    <p>Zapoom est</p>
+    <p>
+        <span class="word wisteria">magnifique</span>
+        <span class="word belize">simple</span>
+        <span class="word pomegranate">pratique</span>
+        <span class="word green">innovant</span>
+        <span class="word midnight">gratuit</span>
+    </p>
     </div>
 </body>
 </html>
