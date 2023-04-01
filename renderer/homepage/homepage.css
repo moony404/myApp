@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 body {
-  background: linear-gradient(46deg, #383838,#202020);
+  background-color: #64707c;
   font-size: 24px;
   font-family: 'Reem Kufi Ink', sans-serif;
   font-weight: bold;
@@ -9,7 +9,6 @@ body {
 
 /*  */
 body {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 40px;
   background-color: black;
@@ -84,7 +83,7 @@ p {
 /* Section for the button 1 from https://uiverse.io*/
 .buttonTest {
   font-family: 'Reem Kufi Ink', sans-serif;
-  background-color: black;
+  background-color: rgb(20, 20, 20);
   color: aliceblue;
   height: 2em;
   width: fit-content;
@@ -97,7 +96,7 @@ p {
  padding-bottom: 16px;
  padding-top: 16px;
  border-radius: 9px;
- background: #d5f365;
+ background: #92b5ff;
  border: none;
  font-family: inherit;
  text-align: center;
@@ -105,11 +104,19 @@ p {
  transition: 0.4s;
 }
 
-#bottone1:hover {
- box-shadow: 7px 5px 56px -14px #C3D900;
+#button1:hover {
+ box-shadow: 7px 5px 56px -14px #2f00ff;
 }
 
-#bottone1:active {
- transform: scale(0.97);
- box-shadow: 7px 5px 56px -10px #C3D900;
+#button1:active {
+ transform: scale(1.5);
+ box-shadow: 7px 5px 56px -10px #3700ff;
+}
+
+.buttonContinue {
+  position: absolute;
+  left: 57%;
+  margin-left: -225px;
+  top: 58%;
+  margin-top: -20px;
 }
