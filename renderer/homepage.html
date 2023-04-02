@@ -9,16 +9,10 @@
     <title>myApp/homepage</title>
 </head>
 <body>
-    <button class="buttonTest" onclick="gotoLink(this)" value="">Let's go to myApp</button>
-    <script>
-        function gotoLink(link) {
-            console.log(link.value);
-            window.open(link.value);
-        };
-    </script>
     <div class="text">
     <p>Zapoom est</p>
     <p>
+        <span class="word midnight"></span>
         <span class="word wisteria">magnifique</span>
         <span class="word belize">simple</span>
         <span class="word pomegranate">pratique</span>
@@ -30,6 +24,6 @@
         <span class="word green">intangible </span>
     </p>
     </div>
-    <button class="buttonContinue" id="button1"><strong>Let's go to myApp</strong></button>
+    <button id="button1" onclick="window.open('index.html')"><strong>Continuer vers myApp</strong></button>
 </body>
 </html>

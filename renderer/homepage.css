@@ -91,32 +91,26 @@ p {
 }
 
 #button1 {
- padding-left: 33px;
- padding-right: 33px;
- padding-bottom: 16px;
- padding-top: 16px;
- border-radius: 9px;
- background: #92b5ff;
- border: none;
- font-family: inherit;
- text-align: center;
- cursor: pointer;
- transition: 0.4s;
+  position: relative;
+  left: 28%;
+  top: 58%;
+  margin-left: 225px;
+  margin-top: 20px;
+  border-radius: 9px;
+  margin-top: 1em;
+  background: #ffffffb4;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 #button1:hover {
- box-shadow: 7px 5px 56px -14px #2f00ff;
+  box-shadow: 0px 1px 66px blue;
 }
 
 #button1:active {
- transform: scale(1.5);
- box-shadow: 7px 5px 56px -10px #3700ff;
-}
-
-.buttonContinue {
-  position: absolute;
-  left: 57%;
-  margin-left: -225px;
-  top: 58%;
-  margin-top: -20px;
+  transform: scale(0.9);
+  box-shadow: 14px 5px 56px -10px #ffffff;
 }
