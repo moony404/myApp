@@ -1,129 +1,15 @@
 body {
-  background-color: #292a2d;
+  background-color: #070707;
   font-size: 24px;
   font-family: 'Reem Kufi Ink', sans-serif;
   color: wheat;
 }
 
-.menu {
-  width: 8.5em;
-  height: auto;
-  border-right: 8px solid #000000;
-  border-bottom: 8px solid #000000;
-}
-
-a:link {
-  text-decoration: none;
-}
-
 .circle1 {
   background-color: #37FF8B;
-  border-radius: 20%;
-  height: 20px;
-  width: 20px;
-}
-
-.circle1:hover {
-  background-color: #20b65e;
-}
-
-/* === removing default button style ===*/
-.button {
-  margin: 0;
-  height: auto;
-  background: transparent;
-  padding: 0;
-  border: none;
-}
-
-/* button styling */
-.button {
-  --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #37FF8B;
-  --fs-size: 2em;
-  letter-spacing: 3px;
-  text-decoration: none;
-  font-size: var(--fs-size);
-  font-family: "Arial";
-  position: relative;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
-}
-/* this is the text, when you hover on button */
-.hover-text {
-  position: absolute;
-  box-sizing: border-box;
-  content: attr(data-text);
-  color: var(--animation-color);
-  width: 0%;
-  inset: 0;
-  border-right: var(--border-right) solid var(--animation-color);
-  overflow: hidden;
-  transition: 0.5s;
-  -webkit-text-stroke: 1px var(--animation-color);
-}
-/* hover */
-.button:hover .hover-text {
-  width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
-}
-
-/* spinning cube */
-.spinner {
- width: 44px;
- height: 44px;
- animation: spinner-y0fdc1 2s infinite ease;
- transform-style: preserve-3d;
-}
-
-.spinner > div {
- background-color: rgba(0,77,255,0.2);
- height: 100%;
- position: absolute;
- width: 100%;
- border: 2px solid #004dff;
-}
-
-.spinner div:nth-of-type(1) {
- transform: translateZ(-22px) rotateY(180deg);
-}
-
-.spinner div:nth-of-type(2) {
- transform: rotateY(-270deg) translateX(50%);
- transform-origin: top right;
-}
-
-.spinner div:nth-of-type(3) {
- transform: rotateY(270deg) translateX(-50%);
- transform-origin: center left;
-}
-
-.spinner div:nth-of-type(4) {
- transform: rotateX(90deg) translateY(-50%);
- transform-origin: top center;
-}
-
-.spinner div:nth-of-type(5) {
- transform: rotateX(-90deg) translateY(50%);
- transform-origin: bottom center;
-}
-
-.spinner div:nth-of-type(6) {
- transform: translateZ(22px);
-}
-
-@keyframes spinner-y0fdc1 {
- 0% {
-  transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
- }
-
- 50% {
-  transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
- }
-
- 100% {
-  transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
- }
+  border-radius: 30%;
+  height: 4em;
+  width: 4em;
+  margin-top: 15%;
+  margin-left: 35%;
 }
