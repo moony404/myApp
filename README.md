@@ -5,5 +5,9 @@ myApp is a free test app made with `electron` in `html`/`css`/`js`.
 ## Installation
 Run myApp with npm command line :
 ```bash
-  npm start
+npm start
+```
+Build myApp with npm command line :
+```bash
+npm run package-win
 ```
