@@ -80,15 +80,6 @@ p {
 }
 
 /* Section for the button 1 from https://uiverse.io*/
-.buttonTest {
-  font-family: 'Reem Kufi Ink', sans-serif;
-  background-color: rgb(20, 20, 20);
-  color: aliceblue;
-  height: 2em;
-  width: fit-content;
-  cursor: default;
-}
-
 #button1 {
   position: absolute;
   left: 50%;
@@ -104,33 +95,6 @@ p {
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
   transition: 0.5s;
-}
-
-a {
-  transition: 0.5S;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -125px;
-  margin-top: 40px;
-  height: 3em;
-  width: 11em;
-  background-color: #9256c99e;
-  color: wheat;
-  border-radius: 9px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-}
-
-a:hover {
-  box-shadow: 0px 1px 66px blue;
-}
-
-a:active {
-  transform: scale(0.9);
-  box-shadow: 14px 5px 56px -10px #ffffff;
 }
 
 #button1:hover {

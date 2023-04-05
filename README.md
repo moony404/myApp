@@ -11,3 +11,5 @@ Build myApp with npm command line :
 ```bash
 npm run package-win
 ```
+# Credits
+Huge thanks to afif fudin for the puzzle icon !
