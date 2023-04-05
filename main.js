@@ -4,7 +4,6 @@ const { platform } = require('os');
 const isMac = process.platform === 'darwin';
 function createMainWindow() {
     const mainWindow = new BrowserWindow({
-        // placeholder
         title: 'myApp',
         width: 1200,
         height: 800
