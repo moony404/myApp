@@ -8,11 +8,6 @@ function createMainWindow() {
         title: 'myApp',
         width: 1000,
         height: 600,
-        titleBarStyle: 'hidden',
-        titleBarOverlay: {
-            color: '#FFFFFF00',
-            symbolColor: '#FFFFFF'
-        }
     });
     mainWindow.loadFile(path.join(__dirname, './renderer/homepage.html'));
 }
