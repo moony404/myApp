@@ -22,6 +22,6 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
     if (!isMac) {
         app.quit()
-        console.log("Window closed.");
+        console.log("Window closed");
     }
 });
