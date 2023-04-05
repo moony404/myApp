@@ -9,11 +9,6 @@ function createMainWindow() {
         width: 1000,
         height: 600,
         titleBarStyle: 'hidden',
-        titleBarOverlay: {
-            color: '#000000',
-            symbolColor: '#FFFFFF',
-            height: 20
-        }
     });
     mainWindow.loadFile(path.join(__dirname, './renderer/homepage.html'));
 }

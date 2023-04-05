@@ -5,6 +5,18 @@ body {
   color: wheat;
 }
 
+.scrollText {
+  position: absolute;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40px;
+}
+
+.scrollText:hover {
+  color: rgb(106, 106, 255);
+  transition: 250ms;
+  cursor: default;
+}
+
 /* Shape start here */
 .cube1 {
   background-color: #37FF8B;
@@ -37,14 +49,19 @@ body {
     /* Nothing */
   }
 
-  50% {
+  25% {
     background-color: #00fb69;
-    transform: rotate(deg);
+    transform: rotate(20deg);
+  }
+
+  50% {
+    background-color: #b4ffd3;
+    transform: rotate(-30deg);
   }
 
   75% {
-    background-color: #b4ffd3;
-    transform: rotate(-30deg);
+    background-color: rgb(158, 158, 235);
+    transform: rotate(45deg);
   }
 
   100% {
@@ -59,5 +76,10 @@ body {
 
   25% {
     background-color: blueviolet;
+  }
+
+  100% {
+    left: 20%;
+    background-color: #222;
   }
 }
