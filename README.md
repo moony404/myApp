@@ -12,4 +12,4 @@ Build myApp with npm command line :
 npm run package-win
 ```
 # Credits
-Huge thanks to afif fudin for the puzzle icon !
+Huge thanks to afif fudin for the puzzle icon at https://www.flaticon.com/fr/auteurs/afif-fudin
