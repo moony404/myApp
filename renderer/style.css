@@ -3,6 +3,20 @@ body {
   font-size: 24px;
   font-family: 'Reem Kufi Ink', sans-serif;
   color: wheat;
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+}
+
+.text1 {
+  left: 50%;
+  top: 50%;
+  margin-top: 20em;
+  text-align: center;
+  font-family: 'Pt Sans', sans-serif;
+  font-size: 40px;
+  color: chartreuse;
 }
 
 .scrollText {
@@ -12,12 +26,12 @@ body {
   margin-top: -30px;
   margin-left: -170px;
   font-family: 'PT Sans', sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   color: rgb(147, 255, 205);
 }
 
 .scrollText:hover {
-  font-size: 40.5px;
+  font-size: 50.5px;
   color: rgb(197, 197, 199);
   transition: 250ms;
   cursor: default;
@@ -27,15 +41,14 @@ body {
 .cube1 {
   background-color: #37FF8B;
   border-radius: 30%;
-  height: 4em;
-  width: 4em;
+  height: 8em;
+  width: 8em;
   margin-top: 15%;
   margin-left: 11%;
   position: absolute;
   animation: ease-in-out;
   animation-name: moveCube1;
   animation-duration: 4s;
-  animation-delay: 2s;
 }
 
 .moon1 {
@@ -47,7 +60,6 @@ body {
   margin-left: 40%;
   animation-name: moveMoon1;
   animation-duration: 6s;
-  animation-delay: 1s;
 }
 
 @keyframes moveCube1 {
