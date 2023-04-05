@@ -7,12 +7,18 @@ body {
 
 .scrollText {
   position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -20px;
+  margin-left: 220px;
   font-family: 'PT Sans', sans-serif;
   font-size: 40px;
+  color: rgb(147, 255, 205);
 }
 
 .scrollText:hover {
-  color: rgb(106, 106, 255);
+  font-size: 40.5px;
+  color: rgb(197, 197, 199);
   transition: 250ms;
   cursor: default;
 }
