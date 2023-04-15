@@ -1,103 +1,77 @@
+* {
+  margin: 0px;
+}
+
 body {
   background-color: #070707;
   font-size: 24px;
-  font-family: 'Reem Kufi Ink', sans-serif;
-  color: wheat;
-  animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
+  font-family: 'Rubik', sans-serif;
 }
 
-.text1 {
-  left: 50%;
-  top: 50%;
-  margin-top: 20em;
-  text-align: center;
-  font-family: 'Pt Sans', sans-serif;
-  font-size: 40px;
-  color: chartreuse;
-}
 
-.scrollText {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-top: -30px;
-  margin-left: -170px;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 50px;
-  color: rgb(147, 255, 205);
-}
-
-.scrollText:hover {
-  font-size: 50.5px;
-  color: rgb(197, 197, 199);
-  transition: 250ms;
+/* The part for the text color and animation that is in the section*/
+.zapoomText {
   cursor: default;
+  animation: zapoomTextAnimation;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 
-/* Shape start here */
-.cube1 {
-  background-color: #37FF8B;
-  border-radius: 30%;
-  height: 8em;
-  width: 8em;
-  margin-top: 15%;
-  margin-left: 11%;
-  position: absolute;
-  animation: ease-in-out;
-  animation-name: moveCube1;
-  animation-duration: 4s;
-}
-
-.moon1 {
-  background-color: #222;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin-top: 7.5%;
-  margin-left: 40%;
-  animation-name: moveMoon1;
-  animation-duration: 6s;
-}
-
-@keyframes moveCube1 {
+@keyframes zapoomTextAnimation {
   0% {
-    /* Nothing */
+    color: whitesmoke;
   }
-
-  25% {
-    background-color: #00fb69;
-    transform: rotate(20deg);
+  80% {
+    color: gold;
   }
-
-  50% {
-    background-color: #b4ffd3;
-    transform: rotate(-30deg);
-  }
-
-  75% {
-    background-color: rgb(158, 158, 235);
-    transform: rotate(45deg);
-  }
-
   100% {
-    background-color: #37FF8B;
-    transform: rotate(0deg);
+    color: whitesmoke;
   }
 }
 
-@keyframes moveMoon1 {
+@keyframes légerTextAnimation {
   0% {
+    color: white;
   }
-
-  25% {
-    background-color: blueviolet;
+  50%{
+    color: red;
   }
-
   100% {
-    left: 20%;
-    background-color: #222;
+    color: white;
   }
+}
+
+/* Part for the section, like the container etc.. */
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.one {
+  background-color: black;
+  color: cyan;
+}
+
+.two {
+  background-color: #111111;
+  color: wheat;
+}
+
+.three {
+  background-color: #971919;
+  color: #68e6e6;
+}
+
+.four {
+  background-color: #00085f;
+  color: #9df983;
 }
