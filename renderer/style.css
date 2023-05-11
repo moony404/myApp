@@ -8,6 +8,13 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-downloadText {
+.downloadText {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin-left: -225px;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
   color: wheat;
 }
