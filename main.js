@@ -5,8 +5,12 @@ const isMac = process.platform === 'darwin';
 function createMainWindow() {
     const mainWindow = new BrowserWindow({
         title: 'myApp',
-        width: 1200,
-        height: 800
+        width: 780,
+        height: 500,
+        minHeight: 500,
+        minWidth: 780,
+        frame: true,
+        autoHideMenuBar: true
     });
     mainWindow.loadFile(path.join(__dirname, './renderer/homepage.html'));
 }
