@@ -8,8 +8,11 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-/* .playlogo { */
-/* } */
+.playlogo {
+  position: fixed;
+  left: 45%;
+  top: 46%;
+}
 
 /* Section for the button 1 from https://uiverse.io*/
 #button1 {
@@ -19,7 +22,6 @@ body {
   margin-left: -125px;
   height: 6em;
   width: 12.5em;
-  /* background: rgb(25, 25, 25); */
   border: none;
   border-radius: 9px;
   cursor: pointer;
