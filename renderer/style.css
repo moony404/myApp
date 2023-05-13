@@ -8,19 +8,20 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.playlogo {
-  position: fixed;
-  left: 45%;
-  top: 46%;
-}
+/* .playlogo { */
+  /* position: fixed; */
+  /* left: 45%; */
+  /* top: 46%; */
+/* } */
 
 /* Section for the button 1 from https://uiverse.io*/
 #button1 {
+  scale: 0.5;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   margin-left: -125px;
-  height: 6em;
+  height: 9em;
   width: 12.5em;
   border: none;
   border-radius: 9px;
@@ -31,10 +32,10 @@ body {
 }
 
 #button1:hover {
-  box-shadow: 0px 1px 66px rgb(67, 62, 216);
+  box-shadow: 0px 0px 200px rgb(67, 62, 216);
 }
 
 #button1:active {
   transform: scale(0.9);
-  box-shadow: 14px 5px 56px -10px #ffffff;
+  box-shadow: 14px 0px 56px -10px #ffffff;
 }
