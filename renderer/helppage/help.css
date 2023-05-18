@@ -17,3 +17,21 @@ p {
     display: inline;
     font-size: 1.5em;
 }
+
+.back-btn {
+    font-size: 2.4em;
+}
+
+.back-img {
+    height: auto;
+    width: auto;
+}
+
+/* For the arrow left */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
