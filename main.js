@@ -10,7 +10,8 @@ function createMainWindow() {
         minHeight: 500,
         minWidth: 780,
         frame: true,
-        autoHideMenuBar: true
+        autoHideMenuBar: true,
+        resizable: false
     });
     mainWindow.loadFile(path.join(__dirname, './renderer/homepage.html'));
 }
