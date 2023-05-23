@@ -211,64 +211,64 @@ body {
   }
 
   20% {
-    content: "#$_";
+    content: "#$";
   }
 
   25% {
-    content: "№:0";
+    content: "N0";
   }
 
   30% {
-    content: "#{+.";
+    content: "#{";
   }
 
   35% {
-    content: "@}-?";
+    content: "@}";
   }
 
   40% {
-    content: "?{4@%";
+    content: "?{";
   }
 
   45% {
-    content: "=.,^!";
+    content: "=.";
   }
 
   50% {
-    content: "?2@%";
+    content: "?2";
   }
 
   55% {
-    content: "\;1}]";
+    content: "\;";
   }
 
   60% {
-    content: "?{%:%";
+    content: "?{";
     right: 0;
   }
 
   65% {
-    content: "|{f[4";
+    content: "|{";
     right: 0;
   }
 
   70% {
-    content: "{4%0%";
+    content: "{4";
     right: 0;
   }
 
   75% {
-    content: "'1_0<";
+    content: "'1_";
     right: 0;
   }
 
   80% {
-    content: "{0%";
+    content: "{0";
     right: 0;
   }
 
   85% {
-    content: "]>'";
+    content: "]>";
     right: 0;
   }
 
