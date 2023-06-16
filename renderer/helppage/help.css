@@ -29,8 +29,10 @@ p {
 
 /* For the arrow left */
 .material-symbols-outlined {
+    position: relative;
+    left: 20px;
+    scale: 2;
     display: inline;
-    
     font-variation-settings:
     'FILL' 0,
     'wght' 400,

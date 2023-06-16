@@ -22,17 +22,18 @@ body {
 /* For UIVERSE.io */
 .uiversebutton {
  --color: #560bad;
+ scale: 0.8;
  font-family: inherit;
  display: inline-block;
  width: 8em;
  height: 2.6em;
  line-height: 2.5em;
  margin: 0px;
+ left: -10px;
  position: relative;
  overflow: hidden;
  border: 2px solid var(--color);
  transition: color .5s;
- z-index: 1;
  font-size: 17px;
  border-radius: 6px;
  font-weight: 500;
@@ -71,6 +72,8 @@ body {
 
 /* The next part is for the play button */
 .button {
+  top: 60%;
+  left: 43%;
   width: 110px;
   height: 40px;
   display: flex;
@@ -78,13 +81,13 @@ body {
   justify-content: flex-start;
   gap: 10px;
   background-color: rgb(132, 250, 116);
-  border-radius: 30px;
+  border-radius: 9px;
   color: rgb(19, 19, 19);
-  font-weight: 600;
+  font-weight: 650;
   border: none;
-  position: relative;
+  position: absolute;
   cursor: pointer;
-  transition-duration: .2s;
+  transition-duration: .1.5s;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
   padding-left: 8px;
   transition-duration: .5s;
@@ -92,7 +95,7 @@ body {
 
 .svgIcon {
   height: 25px;
-  transition-duration: 1.5s;
+  transition-duration: 400ms;
 }
 
 .bell path {
