@@ -69,7 +69,56 @@ body {
  background: #3a0ca3;
  transition: background 0s;
 }
-
+/* second button help */
+.uiversebutton2 {
+  --color: #560bad;
+  scale: 0.8;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 0px;
+  left: -30px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+ }
+ 
+ .uiversebutton2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ .uiversebutton2:hover {
+  color: #030000;
+ }
+ 
+ .uiversebutton2:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .uiversebutton2:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .uiversebutton2:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+ }
 /* The next part is for the play button */
 #button1 {
   position: absolute;
