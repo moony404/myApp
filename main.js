@@ -5,8 +5,8 @@ const isMac = process.platform === 'darwin';
 function createMainWindow() {
     const mainWindow = new BrowserWindow({
         title: 'myApp',
-        width: 900,
-        height: 650,
+        width: 780,
+        height: 500,
         minHeight: 500,
         minWidth: 780,
         frame: true,
