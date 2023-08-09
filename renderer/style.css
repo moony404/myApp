@@ -16,7 +16,8 @@ body {
   color: rgb(21, 0, 247);
   font-size: 50px;
   font-weight: bold;
-  font-family: 'Pacifico', cursive;
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Reem Kufi Ink', sans-serif;
 }
 
 /* For UIVERSE.io */
