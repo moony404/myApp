@@ -22,6 +22,7 @@ body {
 /* For UIVERSE.io */
 .uiversebutton {
  --color: #560bad;
+ background-color: #000000;
  scale: 0.8;
  font-family: inherit;
  display: inline-block;
@@ -72,6 +73,7 @@ body {
 /* second button help */
 .uiversebutton2 {
   --color: #560bad;
+  background-color: #000000;
   scale: 0.8;
   font-family: inherit;
   display: inline-block;
@@ -79,7 +81,7 @@ body {
   height: 2.6em;
   line-height: 2.5em;
   margin: 0px;
-  left: -30px;
+  left: -35px;
   position: relative;
   overflow: hidden;
   border: 2px solid var(--color);
