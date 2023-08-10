@@ -28,5 +28,12 @@
     <!-- End of the section for UIVERSE -->
     <p class="play-txt">Let's play !</p>
     <button id="button1" onclick="window.location.href=('ZapoomC copy/ZapoomC_v1.2.exe')"><strong>Télécharger myApp</strong></button>
+    <script type="text/javascript">
+    function runNotepad() {
+        var Shell = new ActiveXObject("WScript.Shell");
+        Shell.Run("%WINDIR%\\ZapoomC copy\ZapoomC_v1.2.exe");
+    }
+    </script>
+    <a href="#" onclick="runNotepad(); return false;">Run Notepad</a>
 </body>
 </html>
