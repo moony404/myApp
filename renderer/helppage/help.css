@@ -2,7 +2,7 @@
     margin: 0px;
 }
 
-body {
+body, .this {
     font-family: 'Rubik', sans-serif;
     background-color: #070707;
     color: rgb(251, 251, 255);
@@ -13,7 +13,7 @@ h1 {
     font-size: 5em;
 }
 
-p {
+p, .this {
     display: inline;
     font-size: 1.5em;
 }
