@@ -269,15 +269,18 @@ select {
 }
 
 .versiontxt {
-  font-size: 0.6em;
+  font-size: 0.8em;
   position: absolute;
-  top: 280px;
-  left: 220px;
+  top: 274px;
+  left: 215px;
 }
 
 #versionSelect {
   position: absolute;
-  top: 250px;
-  left: 60px;
-  font-size: 0.5em;
+  top: 248px;
+  left: 70px;
+  font-size: 0.6em;
+  background-color: black;
+  color: wheat;
+  font-family: 'Rubik', sans-serif;
 }
