@@ -254,14 +254,17 @@ body {
 } */
 
 .container {
+  position: absolute;
+  top: 20px;
+  left: 35%;
   text-align: center;
-  background-color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+p {
+  color: wheat;
   margin-top: 0;
 }
 
