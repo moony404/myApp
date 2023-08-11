@@ -163,8 +163,9 @@ body {
 
 .loader:hover {
   box-shadow: 10px 20px 100px blue;
+  background-color: #00ac9e;
   filter: blur(1px);
-  transition: 1500ms;
+  transition: 1500ms ease-out;
 }
 
 .loader:before,
