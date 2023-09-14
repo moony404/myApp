@@ -13,3 +13,4 @@ npm run package-win
 ```
 # Credits
 Huge thanks to Javier Danglada (https://www.flaticon.com/authors/javier-danglada) for the logo !
+And a huge thanks to uiverse.io for most of the text and js.
