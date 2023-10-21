@@ -260,12 +260,23 @@ select {
 #version-select {
   position: absolute;
   top: 200px;
-  left: 20px;
+  left: -15px;
   border-radius: 11px;
   border-width: 1px;
   border-color: yellow;
-  font-size: 0.6em;
+  font-size: 1em;
   background-color: black;
   color: wheat;
-  font-family: 'Rubik', sans-serif;
+}
+
+#download-button {
+  position: absolute;
+  top: 280px;
+  left: 217px;
+  border-radius: 9px;
+  border-width: 2px;
+  border-color: yellow;
+  color: white;
+  font-size: 0.8em;
+  background-color: transparent;
 }
